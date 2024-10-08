@@ -1,0 +1,250 @@
+{
+  "uuid": "90cfa221f38bacebbb2c46ffaf56818a",
+  "path": "Offline/Controller",
+  "name": "Controller",
+  "content": "",
+  "created_at": "2021-01-31 19:04:48",
+  "updated_at": "2021-02-01 09:05:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b5433a5af29dddd37c7c237bf0e6db8c",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e9a7d66514f14c81896013ea7ad77e40": 1,
+        "67167881a8f44f7da5538df3d7758a24": 1,
+        "588d08f5041b45baa3b229e3d0e71d41": 1,
+        "2c6d212b12e04a21444f30a57cc413de": 1,
+        "207283c67b3f48f4b2421c110e860fe9": 1,
+        "e067c2af4b714e20b5f8b55e12b6b179": 4,
+        "9ff8999c399e4076acef42ef6fd93856": 1,
+        "140d1c42f592efeaab7dd37550d09c29": 1,
+        "1ad9e429f6baf7994a4ece30762dc0a4": 1,
+        "ebf09bfc2b604f2387986922296d49f0": 1,
+        "65369c98b8634c5c4198698703ee0f08": 1,
+        "f59692c377e743b892e085a8b518b713": 1,
+        "1e7eb2db693e2a0d7a73b6dae4eea91c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SRD-05VDC-SL-C",
+          1,
+          "RELAY-TH_SRD-XXVDC-XL-C",
+          "BOILER_RLY1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SONGLE",
+            "BOM_Manufacturer Part": "SRD-05VDC-SL-C",
+            "BOM_Supplier Part": "C35449",
+            "puuid": "318d2c3124b740ee9ca4dd4423ec5ad1",
+            "uuid": "1ad9e429f6baf7994a4ece30762dc0a4"
+          }
+        ],
+        [
+          "4.7K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CFR0W4J0472A50",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Supplier Part": "C61297",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "1e7eb2db693e2a0d7a73b6dae4eea91c"
+          }
+        ],
+        [
+          "YJ-USB-AF-SMT-01",
+          1,
+          "USB-A-SMD_FUS270-FSBW5K",
+          "USB_POWER_IN",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "YJ-USB-AF-SMT-01",
+            "BOM_Supplier Part": "C8328",
+            "puuid": "a0a3ca985e194d568a03eab351e15425",
+            "uuid": "2c6d212b12e04a21444f30a57cc413de"
+          }
+        ],
+        [
+          "BC548B_C713615",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C713615",
+            "BOM_Manufacturer": "LGE",
+            "BOM_Manufacturer Part": "BC548B",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "9ff8999c399e4076acef42ef6fd93856"
+          }
+        ],
+        [
+          "WJ500V-5.08-3P-14-00A",
+          1,
+          "CONN-TH_3P-P5.00_WJ500V-5.08-3P",
+          "BOILER",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "WJ500V-5.08-3P-14-00A",
+            "BOM_Supplier Part": "C72334",
+            "puuid": "6f34dc26095642d5b9cc3f798b89f8cf",
+            "uuid": "140d1c42f592efeaab7dd37550d09c29"
+          }
+        ],
+        [
+          "PTS645SL95-2LFS",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "RESET_SWITCH",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C221879",
+            "BOM_Manufacturer": "C&K",
+            "BOM_Manufacturer Part": "PTS645SL95-2LFS",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "557c105168d444a992e25584f55bcbb2",
+            "uuid": "588d08f5041b45baa3b229e3d0e71d41"
+          }
+        ],
+        [
+          "φ3 Red",
+          1,
+          "LED-TH_2PIN-L3.50-W3.80-PITCH2.28-L",
+          "BOILER_ACTIVE1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "φ3 Red",
+            "BOM_Supplier Part": "C39928",
+            "puuid": "f415363bf1534fb8900d1ce95a1086a3",
+            "uuid": "65369c98b8634c5c4198698703ee0f08"
+          }
+        ],
+        [
+          "DS18B20",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "TEMP_SENSOR",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C376006",
+            "BOM_Manufacturer": "Youtai Semiconductor Co., Ltd.",
+            "BOM_Manufacturer Part": "DS18B20",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "207283c67b3f48f4b2421c110e860fe9"
+          }
+        ],
+        [
+          "RGBLED_CA-5MM",
+          1,
+          "LED5MMRGB",
+          "STATUS_LED",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "751d19e6fde74de9b5f3feeec3b7e71e",
+            "uuid": "67167881a8f44f7da5538df3d7758a24"
+          }
+        ],
+        [
+          "NODEMCU 12E",
+          1,
+          "NODEMCU",
+          "BIG_BRAIN",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0baf0339a41a435fbee81d17c3c1db1c",
+            "uuid": "e9a7d66514f14c81896013ea7ad77e40"
+          }
+        ],
+        [
+          "220",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R2,R3,R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C120039",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "e067c2af4b714e20b5f8b55e12b6b179"
+          }
+        ],
+        [
+          "1N4001-T",
+          1,
+          "IN4001",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C99656",
+            "BOM_Manufacturer": "Diodes Incorporated",
+            "BOM_Manufacturer Part": "1N4001-T",
+            "puuid": "12f5644e83034dd5a323ac371dc8dcee",
+            "uuid": "ebf09bfc2b604f2387986922296d49f0"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.9",
+          "R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C66649",
+            "BOM_Manufacturer": "Uniroyal Elec",
+            "BOM_Manufacturer Part": "CFR0W4J0102A50",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "effc89414532445783190cb2bb98fda9",
+            "uuid": "f59692c377e743b892e085a8b518b713"
+          }
+        ]
+      ],
+      "updateTime": 1612122569,
+      "createTime": 1612120776,
+      "histories": [],
+      "created_at": "2021-01-31 19:19:36",
+      "updated_at": "2021-01-31 19:49:29"
+    },
+    {
+      "uuid": "bf6952bbade49695acb1b30f33bb1788",
+      "title": "PCB-design",
+      "filename": "PCB-design.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1612129214,
+      "createTime": 1612129214,
+      "histories": [],
+      "created_at": "2021-01-31 21:40:14",
+      "updated_at": "2021-01-31 21:40:14"
+    }
+  ],
+  "sort": [],
+  "title": "Controller",
+  "foldername": "Controller",
+  "schfilename": "Therm Controller.json",
+  "schfilemtime": 1612124795988
+}

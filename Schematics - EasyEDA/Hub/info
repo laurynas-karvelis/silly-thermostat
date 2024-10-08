@@ -1,0 +1,190 @@
+{
+  "uuid": "68274e78fc0b919875d7f878d2c24937",
+  "path": "Offline/Hub",
+  "name": "Hub",
+  "content": "",
+  "created_at": "2020-12-02 22:11:33",
+  "updated_at": "2021-02-01 09:05:38",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a3ac08f0c41e723ea8e841f039d4c68e",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "44d63a2530fa4691a59909c1657352d1": 1,
+        "34c5c0a3194c4ca8accc16ddbeb47033": 2,
+        "207283c67b3f48f4b2421c110e860fe9": 2,
+        "3fec93a306064c9e8877805a4b4a60c6": 1,
+        "5d425ef099a949729375ef386f7aa930": 1,
+        "3e0fb0c806d434e4d3ee93b3d2cd8f1d": 1,
+        "2c6d212b12e04a21444f30a57cc413de": 1,
+        "f59692c377e743b892e085a8b518b713": 1,
+        "d5b9611d501a66484aef3b2fbd033fe3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "YJ-USB-AF-SMT-01",
+          1,
+          "USB-A-SMD_FUS270-FSBW5K",
+          "USB_POWER_IN",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "YJ-USB-AF-SMT-01",
+            "BOM_Supplier Part": "C8328",
+            "puuid": "a0a3ca985e194d568a03eab351e15425",
+            "uuid": "2c6d212b12e04a21444f30a57cc413de"
+          }
+        ],
+        [
+          "2N3906",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Manufacturer Part": "2N3906",
+            "BOM_Supplier Part": "C9809",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "3e0fb0c806d434e4d3ee93b3d2cd8f1d"
+          }
+        ],
+        [
+          "3.2_TFT_LCD_SPI_TOUCH",
+          1,
+          "ILI9341-3.2",
+          "LCD_TOUCH_DISPLAY",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ec4b631271f24b7e8768e903861a3687",
+            "uuid": "3fec93a306064c9e8877805a4b4a60c6"
+          }
+        ],
+        [
+          "SR501",
+          1,
+          "SR501",
+          "INFRARED_PIR",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "7b3dcb6e2bce4936b2e39d3776822433",
+            "uuid": "5d425ef099a949729375ef386f7aa930"
+          }
+        ],
+        [
+          "4.7K",
+          2,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R2,R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C120071",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "34c5c0a3194c4ca8accc16ddbeb47033"
+          }
+        ],
+        [
+          "NODEMCU",
+          1,
+          "NODEMCU",
+          "BIG_BRAIN",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "dd749a039de3482aa1e6f3c7300affac",
+            "uuid": "44d63a2530fa4691a59909c1657352d1"
+          }
+        ],
+        [
+          "DS18B20",
+          2,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "TEMP_SENSOR_1,TEMP_SENSOR_2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C376006",
+            "BOM_Manufacturer": "Youtai Semiconductor Co., Ltd.",
+            "BOM_Manufacturer Part": "DS18B20",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "207283c67b3f48f4b2421c110e860fe9"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CFR0W4J0103A50",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Supplier Part": "C61299",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "d5b9611d501a66484aef3b2fbd033fe3"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.9",
+          "R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C66649",
+            "BOM_Manufacturer": "Uniroyal Elec",
+            "BOM_Manufacturer Part": "CFR0W4J0102A50",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "effc89414532445783190cb2bb98fda9",
+            "uuid": "f59692c377e743b892e085a8b518b713"
+          }
+        ]
+      ],
+      "updateTime": 1612127732,
+      "createTime": 1606949055,
+      "histories": [],
+      "created_at": "2020-12-02 22:44:15",
+      "updated_at": "2021-01-31 21:15:32"
+    },
+    {
+      "uuid": "eebe6a79e68162c266cf31f49754a4bd",
+      "title": "PCB-design",
+      "filename": "PCB-design.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1612129759,
+      "createTime": 1612129759,
+      "histories": [],
+      "created_at": "2021-01-31 21:49:19",
+      "updated_at": "2021-01-31 21:49:19"
+    }
+  ],
+  "sort": [],
+  "title": "Hub",
+  "foldername": "Hub",
+  "schfilename": "therm-hub.json",
+  "schfilemtime": 1612127732722
+}
